@@ -1,0 +1,19 @@
+#container{
+    border: 5px solid black;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-wrap: wrap;
+
+}
+.grid {
+    border: 3px solid black;
+    width: calc(100% / 16 - 6px);
+    height: calc(100% / 16 - 6px);
+    margin: 0;
+}
+.grid:hover{
+    background-color: blue;
+}
