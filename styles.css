@@ -14,6 +14,6 @@
     height: calc(100% / 16 - 6px);
     margin: 0;
 }
-.grid:hover{
+.changeColor{
     background-color: blue;
 }
